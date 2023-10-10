@@ -11,7 +11,7 @@ export default defineAppConfig({
       position: 'right', // possible value are : | 'left' | 'center' | 'right'
       navigation: true, // possible value are : true | false
       logo: {
-        path: '/img/ksk.png',
+        path: '/img/zzz.png',
         pathDark: '/img/ksk.png',
         alt: 'Kessoku DAO',
       },
