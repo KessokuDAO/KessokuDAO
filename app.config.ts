@@ -12,7 +12,7 @@ export default defineAppConfig({
       navigation: true, // possible value are : true | false
       logo: {
         path: '/img/zzz.png',
-        pathDark: '/img/ksk.png',
+        pathDark: '/img/zzz.png',
         alt: 'Kessoku DAO',
       },
     },
