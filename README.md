@@ -1,1 +1,1 @@
-![kessoku](/img/ksk.png)
+![kessoku](/public/img/ksk.png)
