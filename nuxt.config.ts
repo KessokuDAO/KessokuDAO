@@ -1,13 +1,4 @@
 export default defineNuxtConfig({
-
-  ssr: false,
-  router: {
-    options: {
-      hashMode: true,
-      scrollBehaviorType: 'smooth',
-      strict: false,
-    }
-  },
   // https://github.com/nuxt-themes/alpine
   extends: '@nuxt-themes/alpine',
 
@@ -16,5 +7,12 @@ export default defineNuxtConfig({
     '@nuxtjs/plausible',
     // https://github.com/nuxt/devtools
     '@nuxt/devtools'
-  ]
+  ],
+
+  router: {
+    options: {
+      hashMode: true,
+      scrollBehaviorType: 'smooth',
+    }
+  }
 })
